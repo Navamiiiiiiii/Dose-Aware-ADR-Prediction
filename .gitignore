@@ -1,0 +1,28 @@
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local settings and secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Temporary files
+*.log
+.pytest_cache/
+
+# Local backups
+backups/
+
+# Ignore all model checkpoints by default
+*.pt
+*.pth
+
+# Keep ONLY the reproducible trained checkpoint
+!outputs/adr_edgeconv_reproducible.pt
